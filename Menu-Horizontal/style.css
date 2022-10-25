@@ -1,0 +1,33 @@
+.nav:hover{
+    font-size: 16.490px;
+}
+ul {
+    padding-left: 25%;
+    padding-right: 25%;
+display: flex;
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgba(164, 162, 162, 0.744);
+    box-shadow: 10px 10px 10px 1px grey;
+  }
+  
+  li {
+    float:inline-start;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: rgb(16, 160, 11);
+  }
+
